@@ -1,0 +1,150 @@
+.aboutHome {
+  height: auto;
+}
+.aboutHome #heading {
+  text-align: left;
+  padding: 0;
+}
+.aboutHome .left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.aboutHome .right {
+  padding: 80px 50px; 
+ 
+}
+
+.para {
+  font-family: cursive;
+ }
+
+.aboutHome .right  h1  {
+  color: rgb(37, 37, 92);
+}
+
+
+.aboutHome .items {
+  margin-top: 50px;
+}
+.aboutHome .item {
+  background-color: #ffffff;
+  margin-top: 30px;
+  padding: 20px;
+  transition: 0.2s;
+  border-radius: 10px;
+}
+.aboutHome .img {
+  width: 200px;
+}
+.aboutHome img {
+  padding-top: 50px;
+  width: 70px;
+  height: 70px;
+}
+.aboutHome .item h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.aboutHome .item p {
+  color: #553b3b;
+  font-family: cursive;
+}
+.aboutHome .item:hover {
+  background-color: #282146;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+}
+.aboutHome .item:hover p {
+  color: #fff;
+}
+/*----------awrapper------------*/
+.awrapper {
+  background-image: url("../../../public/images/awrapper.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  color: #fff;
+}
+.awrapper .box {
+  padding: 70px 0;
+}
+.awrapper img {
+  margin-right: 30px;
+}
+.awrapper h1 {
+  font-size: 50px;
+}
+.awrapper h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+/*----------awrapper------------*/
+@media screen and (max-width: 590px) {
+
+  .aboutHome .row {
+    width: 100%;
+  }
+  .awrapper {
+    height: 95vh;
+    width: 100%;
+    margin-bottom: 400px;
+  }
+
+  .awrapper .container  {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .awrapper .container h1 {
+    font-size: 30px;
+    color: cadetblue;
+    
+   
+  }
+
+  .awrapper .container  h3 {
+    font-size: 25px;
+  }
+
+  .awrapper .container  img {
+    display: none;
+  }
+.aboutHome .item {
+ background: rgb(113, 113, 143);
+ width: 100%;
+ color: whitesmoke;
+}
+
+.aboutHome .item:hover {
+  background: rgb(113, 113, 143);
+  width: 100%;
+ }
+
+.aboutHome .text {
+color: whitesmoke;
+}
+
+.right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+.para {
+ font-family: cursive;
+ width: 100%;
+ float: left;
+ margin-right: 0px;
+font-size: 15px;
+}
+
+}
+
